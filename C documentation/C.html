@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  
+    <nav id="navbar">
+      <header>
+        <h1>C Documentation</h1> </header>
+        
+<ul class="first-ul">
+        <a class="nav-link" href="#What_is_C_?">
+          <li>What is C ?</li>
+          
+        </a>
+        <a class="nav-link" href="#Why_to_learn_C_?">
+          <li>Why to learn C ?</li>
+          
+        </a>
+        <a class="nav-link" href="#Facts_about_C">
+          <li>Facts about C</li>
+          
+        </a>
+        <a class="nav-link" href="#Hello_World_using_C">
+          <li>Hello World using C</li>
+          
+        </a>
+        <a class="nav-link" href="#Application_of_C">
+          <li>Application of C</li>
+          
+        </a>
+        <a class="nav-link" href="#Variable_in_C">
+          <li> Variable in C</li>
+          
+        </a>
+        <a class="nav-link" href="#Operators_in_C">
+          <li>Operators in C</li>
+        </a>
+        
+        <a class="nav-link" href="#Functions_in_C">
+          <li>Functions in C</li>
+          
+        </a>
+        <a class="nav-link" href="#If-else_in_C">
+          <li>If-else in C</li>
+          
+        </a>
+        <a class="nav-link" href="#Switch_in_C">
+          <li>Switch in C</li>
+          
+        </a>
+        
+        <a class="nav-link" href="#Loops_in_C">
+          <li>
+            Loops in C
+          </li>
+        </a>
+        
+        <a class="nav-link" href="#Reference">
+          <li>Reference</li>
+        </a>
+        
+        </ul>
+      
+    </nav>
+    <div class="main-div">
+   <main id="main-doc">   <section class="main-section" id="What_is_C_?">
+        <header class="onlychange">
+          What is C ? </header>
+        <P>C is a programming language developed at AT & T's Bell Laboratories of USA in 1972 by Dennis Ritchie. C
+          become
+          popular because it is simple ans easy to use. C is the most widely used computer language. It keeps
+          fluctuating
+          at number one scale of popularity along with Java programming language, Which is also equally popular and most
+          widely used among modern software programmers.
+ </P>
+      </section>
+      <section class="main-section" id="Why_to_learn_C_?">
+        <header> Why to Learn C ?</header>
+        <p>C programming language is a MUST for students and working professionals to become a great Software Engineer
+          specially when they are working in Software Development Domain. I will list down some of the key advantages of
+          learning C programming:</p>
+        <ul>
+          <li> Easy to learn</li>
+          <li> Structured Language</li>
+          <li> It produces efficient program</li>
+          <li> It can handle low-level activites</li>
+          <li> It can be compiled on a variety of computer platforms</li>
+
+
+
+
+
+
+        </ul>
+      </section>
+
+      <section class="main-section" id="Facts_about_C">
+        <header> Facts about C</header>
+        <ul>
+
+          <li>C was invented to write an operating system called UNIX.</li>
+          <li>C is successor of B Language which was introduced around the early 1970s.</li>
+
+          <li>The language was formalized in 1988 by the American National Standard Institute (ANSI).</li>
+          <li>The UNIX OS was totally written in C.</li>
+          <li>Today C is the most widely used and popular System Programming Language.</li>
+          <li>Most of the state-of-the-art software have been implemented using C.</li>
+
+
+
+        </ul>
+
+
+      </section>
+
+      <section class="main-section" id="Hello_World_using_C">
+        <header>
+          Hello World using C
+        </header>
+
+        <p>Just to give you a little excitement about C programming. I'm going to give you a small conventional C
+          programming Hello World program. </p>
+        <div>
+          <article>
+            <code>
+  #include (stdio.h)<br>
+  int main(){ <br>
+  printf("Hello, World!");<br>
+  return 0;
+
+  }
+</code>
+          </article>
+
+
+
+        </div>
+      </section>
+      <section class="main-section" id="Application_of_C">
+        <header>Application of C</header>
+        <p> C was initially used for system development work, particulary the program that make-up the operating system.
+          C
+          was adopted as a system development language because it produces code that rund nearly as fact as the codw
+          written in assembly language. Some examples of the use of C are -
+        <ul>
+          <li>Operating Systems</li>
+          <li>Language Compliers</li>
+          <li>Assemblers</li>
+          <li>Text Editors</li>
+          <li>Print Spoolers</li>
+          <li>Network Drivers</li>
+          <li>Modern Programs </li>
+          <li>Databases</li>
+          <li>Language Interpreters</li>
+          <li>Utilities</li>
+
+        </ul>
+
+
+      </section>
+      <section class="main-section" id="Variable_in_C">
+        <header>Variable in C</header>
+        <p>
+          A variable is nothing but a name given to a storage area that our programs can manipulte. Each variable in C
+          has
+          a specific type, which determines the size and layout of the variable's memory; the range of values that can
+          be
+          stored within that memory; and the set of operations that can be applies to the variable.
+        </p>
+        <p>
+          The name of a variable can be composed of letters, digit, and the underscore character. It must begin with
+          either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based
+          on
+          the basic type, there will be the following basic variable types -
+        </p>
+        <table>
+          <theader>
+            <tr>
+              <td class="empty">
+                </td>
+              <th>Sr.No.</th>
+              <th>Type & Description
+
+
+            </tr>
+          
+
+</theader>
+          <tbody>
+            <tr>
+              <td class="empty"></td>
+              <th>1</th>
+              <th>Char <span class="variable"> Typically a single octet(one byte). It is an integer type.</span></th>
+
+
+
+
+            </tr>
+            <tr>
+
+
+
+            <tr>
+
+              <td class="empty"></td>
+              <th>2</th>
+              <th>int <span class="variable"> The most natural size of integer for the machine.
+
+
+      </tr>
+      <tr>
+<td class="empty"></td>
+<th>3</th>
+<th>float <span class="variable"> A single-precision floating point value. </th>
+   
+
+
+      </tr>
+
+      <tr>
+
+<td class="empty"></td>
+<th>4</th>
+<th>double <span class="variable"> A double-precision floating point value.</span> </th>
+
+
+            </tr>
+
+
+
+            <tr>
+              <td class="empty"></td>
+              <th>5</th>
+              <th>void <span class="variable"> Represent the absence of type</th>
+          
+
+      </tr>
+    <tbody>
+
+
+
+  
+</table>
+
+    </section>
+
+  <section class="main-section" id="Operators_in_C">
+
+<header class="operatorinc">Operators in C</header>
+<p>An operator is a symbol that tells the compiler to perform specific mathematical or logical fuctions. C language is rich in build-in operators and provide the following types of operators -<ul>
+  <li>Arithmetic Operators</li>
+  <li>Relational Operators</li>
+  <li>logical Operators</li>
+  <li>Bitwise Operators</li>
+  <li>Assignment Operators</li>
+  <li>Misc Operators</li>
+  
+  
+  </ul></p>
+
+    </section> 
+    <section class="main-section" id="Functions_in_C">
+   <header>Functions in C</header>
+      <p>In C, we can divide a large program into the basic building blocks known as function. The function contains the set of programming statements enclosed by {}. A function can be called multiple times to provide reusability and modularity to the C program. In other words, we can say that the collection of functions creates a program. The function is also known as <i>procedureor subroutinein </i> other programming languages.</p>
+      <h3>Advantage of functions in C</h3>
+      <p>There are the following advantages of C functions.<ul>
+        <li>by using functions, we can avoid rewriting same logic/cod again and again in program.
+          </li>
+          <li>We can call C fuctions any number of times in a program and from any place in a program</li>
+          <li>We can track a large C program easily when it is divided into multiple functions.</li>
+  <li>Reusability is the main achievement of C functions.</li>
+
+
+  <li>However, Function calling is always a overhead in a C program.</li>
+
+
+
+
+        
+        </ul></p>
+        <h3>Function Aspects</h3>
+        <P>There are three aspects of a C function.
+          <ul><li><strong>Function declartion</strong> A function must be declared globally in a c program to tell the complier about the function name, function parameters, and return type.</li>
+          <li><strong>Function call</strong> Function can be called from anywhere in the porgram. The parameter list must not differ in function calling and function declaration. We must pass the same number of functions as it is declared in the function declaration.
+
+<li><strong>Function definition</strong>
+ It contains the actual statements which are to be executed. it is the most important aspect to which the control comes when the functions is called. Here, we must notice that only one value can be returned from the function.
+</li>
+          </ul>
+      </section>
+      <div>
+<table>
+   <thead>
+    <tr>
+      <td class="empty"></td>
+      <th>SN</th>
+      <th>C function aspects</th>
+      <th>Syntax</th>
+      <tr>
+
+
+   </thead>
+   <tbody>
+
+<tr>
+  <td class="empty"></td>
+<td>1</td>
+<td>Function declaration</td>
+<td>return_type function_name (argument list);</td>
+
+
+</tr>
+
+<tr>
+
+  <td class="empty"></td>
+  <td>2</td>
+  <td>Funtion call</td>
+  <td>function_name (argument_list)</td>
+</tr>
+<tr>
+
+  <td class="empty"></td>
+  <td>3</td>
+  <td>Function definition</td>
+  <td>return_type function_name(argument list){function body;}</td>
+  
+  
+</tr>
+
+     </tbody>
+
+
+
+
+</table>
+
+   
+
+      </div>
+      <section class="main-section" id="If-else_in_C">
+    <header class="ifelse">If-else in C </header>
+        <p>The if-else statement in C is used to platform the operations based on some specific condition. The operations specified in if block are executed if and only if the given condition is true.</p>
+        <p>There are the following varients of if statement in C.<ul>
+          <li>if statement</li>
+          <li>if-else statement</li>
+          <li>if else-if ladder</li>
+          <li>Nested if</li>
+          
+          
+          
+          
+          </ul> </p>
+          <h3>If Statement</h3>
+          <article>The if statement is used to check some given condition and perform some operations depending upon the correctness of that condition. it is mostly used in the scenario wher we need to perform the different operation for the different conditions. The syntax of the if statement is given below.<article><P><code>if(expression){<br>//code to be excuted<br>}</code></P>
+          <h3>If-else statement</h3>
+          <p>The if-else statement is used to perform two operation for a single condition. The if-else statement is an extension to the if statement using which, we can perform two different operations, i.e., one id for the incorrectness of the condition. Here, we must notice that if and else block cannot be executed simiultenously. Using if else-statement is always preferable since it always invokes an otherwise case with every if condition. The syntax of the if-else statement is given below.</p>
+          
+            <code>
+              <pre>if(expression){
+//code to be executed if condition is true
+ }else{
+//code to be executed if condition is false
+ }
+</pre>
+            </code>
+          
+
+<h3>If else-if ladder Statement</h3>
+<p>The if-else-if ladder statement is an extension to the if-else statement. It is used in the scenario where there are mulitple cases to be performed for different conditions. In if-else-if ladder statement, if a condition is true then the statements defined in the if block will be executed, otherwise if some other conditions is true then the statements defined in the else-if block will be executed, at the last if none of the condition is true then the statements defined in the else block will be executed. There are multiple else-if blocks possible. it is similar to the switch case statement where the default is executed instead of else block if none of the cases is matched.</p>
+
+  <code>
+    <pre>
+if(condition1){
+ //code to be executed if condition1 is true  
+}else if(condition2){
+ //code to be executed if condition2 is true 
+}
+ else if(condition3){
+ //code to be executed if condition3 is true  
+ }
+ ...
+  else{
+//code to be executed if all the conditions
+ are false  
+}
+</pre>
+  </code>
+
+
+
+          
+
+        </section>
+
+
+<section class="main-section" id="Switch_in_C">
+ <header>Switch in C</header>
+  <p>
+
+The switch satement in C is an alternate to if-else-if ladder statement which allows us to execute multiple operations for the different possible values of a single variable called switch variable. Here, We can define various statements in the multiple cases for the different values of a single variable.
+
+
+
+  </p>
+  <p>The syntax of switch statement in c language is given below:</P>
+  
+    <code>
+      <pre>
+ switch(expression){
+ case value1:
+  //code to be executed;
+  break; //optional
+ case value2:
+  //code to be executed;
+  break; //optional
+
+.....
+
+ default:
+  code to be excuted if all cases are
+   not matched;
+ }  </pre>
+      </code> 
+  </section>
+  <section class="main-section" id="Loops_in_C">
+ <header>Loops in C</header>
+    <p>
+The looping can be defined as repeating the same process multiple times until a specific condition satisfies. There are three types of loops used in the C languages. In this part of the tutorial, We are going to learn all the aspects of C loops. </p>
+<h3>Why use loops in C language?</h3>
+<p>
+  The looping simplifies the complex problems into the easy ones. it enables us to alter the flow of the program so that instead of writing the same code again and again, we can repeat the same code for a finite number of times. For examples, if we need to printf statement 10 times. we can print inside a loop which run up to 10 iterations
+</p>
+<h3>Advantage of loops in C</h3>
+<ol>
+  <li> It provides code reusability.</li>
+  <li> Using loops, we do not need to write the same code again and again</li>
+  <li> Using loops, we can transverse over the elements of data structures(array or linked lists).
+  </oL>
+
+  <h3>Types of C Loops</h3>
+  <p>There are three types of loops in C  language that is given below:</p>
+  <ol>
+<li>do while</li>
+<li>while</li>
+<li>for</li>
+  </ol>
+
+  <div>
+    <h3>
+      do-while loop in C
+    </h3>
+    <p>
+The do-while loop continues until a given conditions satisfies. it is also called post tested loop. it is used when it is necessary to execute the loop at least once (mostly menu driven programs).
+
+
+
+    </p>
+    <article>The syntax of do-while loop in c language is given below:</article>
+    <code>
+      <pre>
+do{
+ //code to be excuted 
+}while(condition);
+</pre>
+    </code>
+    </div>
+    <div>
+      <h3>while loop in C</h3>
+      <p>The while loop in c is to be used in the scenario where we dont't know the number of iterations in advance. The block of statements is executed in the while loop until the condition specified in the while loop is satisfied. it is also called a pre-tested loop.</p>
+      <p>The syntax of while loop in c language is given below:</p>
+      <code><pre>
+while(condition){
+ //code to be executed 
+}
+</pre></code>
+    </div>
+    <div>
+      <h3>for loop in C</h3>
+      <p>The for loop is used in the case where we need to execute some part of the code until the given condition is satisfied. The for loop is also called as a per-tested loop. it is better to use for loop if the number of iteration is known in advance.</p>
+      <p>The syntax of for loop in C language is given below:</p>
+      <code><pre>
+ for(initialization;condition;incr/decr){
+  //code to be executed
+ }       
+</pre>
+      </code>
+
+    </div>
+    </section>
+        
+<section class="main-section" id="Reference">
+
+ <header>Reference</header>
+  <p>All the documentation in this page is taken from</p>
+  <ul><a href="https://www.javatpoint.com/c-programming-language-tutorial"><li>javapoint.com</li></a>
+<a href="https://www.tutorialspoint.com/cprogramming/index.htm"><li>tutorialspoint.c</li></a>
+<a href="https://www.programiz.com/c-programming"><li>programiz.com</li></a>  
+    </ul>
+</section>
+</div>
+      
+
+
+
+    
+     
+    
+
+
+  </main>
+</body>
+
+
+</html>
